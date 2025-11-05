@@ -1,40 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 header {
-    background: #2c3e50;
-    color: white;
-    padding: 1.5rem;
-    text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    padding: 1rem;
-    background: #34495e;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: #34495e;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 nav a:hover {
-    color: #3498db;
+  color: #3498db;
 }
 nav a.active {
+  color: #3498db;
+  border-bottom: 2px solid #3498db;
+}
+
+main {
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.social-links a:hover {
     color: #3498db;
-    border-bottom: 2px solid #3498db;
 }
